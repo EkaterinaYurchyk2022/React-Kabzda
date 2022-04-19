@@ -27,9 +27,9 @@ function App() {
             {/*<UncontrolledOnOff onClick={setSwitchOn}/>{switchOn.toString()}*/}
             <Select value={'1'}
                 items={[
-                    {title: 'Minsk', id: '1'},
-                    {title: 'Moscow', id: '2'},
-                    {title: 'Kiev', id: '3'}
+                    {title: 'Minsk', value: '1'},
+                    {title: 'Moscow', value: '2'},
+                    {title: 'Kiev', value: '3'}
                 ]}
                 onChange={()=>{}}
             />
